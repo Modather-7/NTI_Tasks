@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doctor Appointment Form</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="image-box">
+            <img src="pngtree-photo-men-doctor-physician-chest-smiling-png-image_13143575.png" alt="Doctor">
+        </div>
+
+        <div class="form-box">
+            <h2>Doctor Appointment Form</h2>
+            <hr>
+
+            <form>
+                <table>
+                    <tr>
+                        <td><label>Appointment<br>Date</label></td>
+                        <td colspan="2"><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Appointment<br>Time</label></td>
+                        <td colspan="2"><input type="time"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Name</label></td>
+                        <td colspan="2">
+                            <input type="text" placeholder="First">
+                            <input type="text" placeholder="Last">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Gender</label></td>
+                        <td colspan="2">
+                            Male <input type="radio" name="gender" value="male">
+                            Female <input type="radio" name="gender" value="female" checked>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Phone</label></td>
+                        <td colspan="2"><input type="text" placeholder="####"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Address</label></td>
+                        <td colspan="2">
+                            <input type="text" placeholder="city">
+                            <input type="text" placeholder="state">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;"><label>Your Query</label></td>
+                        <td colspan="2">
+                            <textarea rows="4" cols="35"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;"><label>Appointment<br>Type</label></td>
+                        <td colspan="2">
+                            <p style="margin: 0 0 5px 0;">Select which appointment type(s) you require</p>
+                            <input type="checkbox" checked> Cervix checkup<br>
+                            <input type="checkbox" checked> Heart checkup<br>
+                            <input type="checkbox"> Eye check-up<br>
+                            <input type="checkbox"> Hearing Test
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="2">
+                            <br>
+                            <input type="submit" value="Send">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
