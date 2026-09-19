@@ -1,0 +1,72 @@
+body {
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 15px 40px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Home Header */
+
+.hero {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+
+/* Products */
+
+.products-page {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.product-card {
+    height: 100%;
+}
+
+.product-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.product-card .card-title {
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Account */
+
+.account-page {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.account-page h2 {
+    margin-bottom: 30px;
+}
